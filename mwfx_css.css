@@ -1,0 +1,292 @@
+body {
+background-color: #000000;
+background-attachment: fixed;
+
+scrollbar-face-color: #000000;
+scrollbar-shadow-color: #888888;
+scrollbar-highlight-color: #000000;
+scrollbar-3dlight-color: #FFFFFF;
+scrollbar-darkshadow-color: #FFFFFF;
+scrollbar-track-color: #000000;
+scrollbar-arrow-color: #FFFFFF;
+}
+
+.logo {
+text-align: center;
+}
+
+.txt {
+border: 1px solid #FFFFFF;
+width: 700px;
+text-align: center;
+font-family: Tahoma;
+color: #FFFFFF;
+font-size: 12px;
+padding: 3px;
+margin-top: 5px;
+margin-bottom: 5px;
+margin-left: auto;
+margin-right: auto;
+}
+
+.texto {
+font-family: Verdana;
+font-size: 8pt;
+color: #FFFFFF;
+text-indent: 0px;
+margin: 0;
+padding-left: 10px;
+padding-right: 10px;
+}
+
+.loading {
+border: 1px solid #FFFFFF;
+background-image: url('loading.gif');
+width: 194px;
+text-align: center;
+font-family: Tahoma;
+color: #FFFFFF;
+font-size: 12px;
+padding: 3px;
+margin-top: 5px;
+margin-bottom: 5px;
+margin-left: auto;
+margin-right: auto;
+}
+
+.text_nm {
+text-align: center;
+font-family: Tahoma;
+color: #FFFFFF;
+font-size: 12px;
+}
+
+.text_copy {
+text-align: center;
+font-family: Tahoma;
+color: #FFFFFF;
+font-size: 11px;
+}
+
+.ultima_act {
+font-family: Verdana;
+color: #FFFFFF;
+font-size: 7pt;
+margin-top: 0px;
+margin-bottom: 0px;
+position: absolute;
+top: 33px;
+right: 3px;
+}
+
+.titulo {
+text-align:center;
+padding-top: 4px;
+padding-bottom: 4px;
+font-family: Monotype Corsiva;
+color: #C0C0C0;
+font-size: 34px;
+font-weight: bold;
+text-decoration: none;
+line-height: 34px;
+}
+
+.seccao {
+font-family: Trebuchet MS;
+font-size: 18px;
+font-weight: bold;
+text-align: center;
+padding-top: 1px;
+padding-bottom: 1px;
+color: #FFFFFF;
+}
+
+.subseccao {
+font-family: Comic Sans MS;
+font-size: 14px;
+text-align: center;
+font-weight: bold;
+padding-top: 1px;
+padding-bottom: 1px;
+color: #FFFFFF;
+}
+
+a.button {
+font-family: Verdana;
+width: 178px;
+font-weight: bold;
+font-size: 11px;
+height: 10px;
+color: #FF0000;
+border: 1px solid #FFFFFF;
+text-align: center;
+text-indent: 0px;
+padding-top: 4px;
+padding-bottom: 4px;
+margin-left: 2px;
+margin-right: 2px;
+display: inline-table;
+text-decoration: none;	
+}
+
+a.button:visited {
+color: #AAAAAA;
+}
+  
+a.button:hover {
+color: #00FF00;
+background-color: #555555;
+}
+ 
+a.button:active {
+color: #00FF00;
+}
+
+a {
+color: #FF0000;
+text-decoration:none;
+}
+
+a:hover {
+font-weight: bold;
+color: #00FF00;
+}
+
+a:visited {
+color: #AA0000;
+}
+
+a:active {
+color: #FF0000;
+}
+
+a.btxt {
+font-family: Verdana;
+font-size: 9pt;
+color: #FFFFFF;
+text-indent: 0px;
+margin: 0;
+padding-left: 10px;
+padding-right: 10px;
+font-weight: bold;
+text-decoration: none;
+}
+
+a.btxt:visited {
+color: #AAAAAA;
+}
+  
+a.btxt:hover {
+cursor: url('mouse.ani');
+color: #FF0000;
+}
+ 
+a.btxt:active {
+color: #00FF00;
+}
+
+
+
+
+
+
+
+/* On-The-Fly Music Player */
+
+div#player {
+position: absolute;
+bottom: 5px;
+right: 5px;
+width: 620px;
+height: 150px;
+border: 0px solid red;
+}
+
+div#player_close {
+position: absolute;
+bottom: 1px;
+left: 4px;
+z-index: 1;
+font-family: Verdana;
+font-size: 7px;
+}
+
+img#player {
+z-index: 0;
+border: 0px;
+}
+
+/* End On-The-Fly Music Player */
+
+
+
+
+
+
+
+
+/* Glow Effect on Images */
+
+#glow {
+	text-align: center;
+}
+
+#glow img {
+	opacity: 0.5;
+	margin: 25px;
+	border: 1px solid #FF0000;
+ 
+	/*Transition*/
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+}
+
+#glow img:hover {  
+   opacity: 1;
+ 
+   /*Glow*/
+  -webkit-box-shadow: 0px 0px 20px rgba(255,255,255,0.8);
+  -moz-box-shadow: 0px 0px 20px rgba(255,255,255,0.8);
+  box-shadow: 0px 0px 20px rgba(255,255,255,0.8);
+}
+
+/* End Glow Effect on Images */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* OLD CODE */
+
+/* utilizado nas news */
+.ultima_act_page {
+font-family: Verdana;
+color: #FFFFFF;
+font-size: 7pt;
+margin-top: 0px;
+margin-bottom: 0px;
+}
+
+/* Imagem com link */
+a img {  
+  border: 3px solid #555;
+}
+
+/* hover em imagem com link */
+a:hover img {
+  border: 3px solid #CCC;
+}
+
+/* END OLD CODE */
+
+/* End of File */

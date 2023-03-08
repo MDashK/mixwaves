@@ -1,0 +1,141 @@
+body {
+margin: 0.1em;
+
+background-color: #000000;
+background-image: url('');
+background-attachment: fixed;
+
+scrollbar-face-color: #000000;
+scrollbar-shadow-color: #888888;
+scrollbar-highlight-color: #000000;
+scrollbar-3dlight-color: #FFFFFF;
+scrollbar-darkshadow-color: #FFFFFF;
+scrollbar-track-color: #000000;
+scrollbar-arrow-color: #FFFFFF
+
+text-align: center;
+}
+
+.logo {
+color: #FFFFFF;
+margin-top: 0px;
+margin-bottom: 0px;
+}
+
+.releases {
+border: 1px solid #ccc;
+background: #000;
+color: #EEE;
+padding: 5px;
+width: 850px;
+margin-top: 10px;
+margin-bottom: 10px;
+text-align: left;
+margin-left: auto;
+margin-right: auto;
+}
+
+div#webs_pub {
+position: absolute;
+bottom: 10px;
+right: 10px;
+width: 300px;
+height: 250px;
+border: 1px solid red;
+}
+
+div#webs_pub_close {
+position: absolute;
+top: 1px;
+right: 2px;
+z-index: 1;
+font-family: Verdana;
+font-size: 9px;
+}
+
+img#webs_pub_img {
+position: absolute;
+z-index: 0;
+border: 0px;
+}
+
+OBJECT#wmp {
+position: absolute;
+right: 0px;
+top: 0px;
+display: none;
+}
+
+div#player {
+position: absolute;
+top: 1px;
+right: 4px;
+width: 15px;
+}
+
+pre {
+margin: 0;
+text-align: left;
+}
+
+div#nav {
+color: #FFF;
+background: #000;
+font-size: 12px;
+font-family: Verdana;
+text-align: center;
+font-weight: bold;
+border-bottom: 1px solid #FFF;
+border-top: 1px solid #FFF;
+padding: 3px 0;
+margin: 0;
+}
+
+div#nav a:link, div#nav a:visited, div#nav a:active {
+color: #FFF;
+background: #000;
+text-align: center;
+font-weight: bold;
+text-decoration: none;
+padding: 3px 15px;
+border-left: 0px solid #FFF;
+border-right: 0px solid #FFF;
+margin: 0;
+}
+
+div#nav a:hover {
+color: #FFF;
+background: #888;
+font-weight: bold;
+border-left: 1px solid #888;
+border-right: 1px solid #888;
+padding: 3px 14px;
+}
+
+a, a:link, a:active {
+font-weight: bold;
+color: #FF0000;
+text-decoration:none;
+}
+
+a:hover {
+font-weight: bold;
+color: #00FF00;
+text-decoration:none;
+}
+
+a:visited {
+font-weight: bold;
+color: #FFFFF;
+text-decoration:none;
+}
+
+.copy {
+font-family: Verdana;
+font-size: 9px;
+color: #FFFFFF;
+text-indent: 0px;
+margin: 0;
+padding-left: 10px;
+padding-right: 10px;
+}

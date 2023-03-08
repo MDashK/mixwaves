@@ -1,0 +1,106 @@
+BODY {
+SCROLLBAR-FACE-COLOR: #000000;
+SCROLLBAR-HIGHLIGHT-COLOR: #ffffff;
+SCROLLBAR-SHADOW-COLOR: #2e425a;
+SCROLLBAR-3DLIGHT-COLOR: #2e425a;
+SCROLLBAR-ARROW-COLOR: #bccbdc;
+SCROLLBAR-TRACK-COLOR: #2e425a;
+SCROLLBAR-DARKSHADOW-COLOR: #000000;
+
+BACKGROUND-COLOR: #000000;
+background-image: url('images/back.gif');
+
+cursor: url('mouse.ani');
+}
+
+A:link {
+COLOR: #bccbdc;
+TEXT-DECORATION: none;
+cursor: url('mouse.ani');
+}
+
+A:active {
+COLOR: #bccbdc;
+TEXT-DECORATION: none;
+cursor: url('mouse.ani');
+}
+
+A:visited {
+COLOR: #bccbdc;
+TEXT-DECORATION: none;
+cursor: url('mouse.ani');
+}
+
+A:hover {
+COLOR: #597795;
+TEXT-DECORATION: underline;
+cursor: url('mouse.ani');
+}
+
+.autor_L {
+font-family: Verdana;
+font-size: 10px;
+color: #FFCC00;
+font-weight: bold;
+padding-left: 5px;
+padding-right: 5px;
+padding-top: 7px;
+text-align: left;
+}
+
+.autor_R {
+font-family: Verdana;
+font-size: 10px;
+color: #FFCC00;
+font-weight: bold;
+padding-left: 5px;
+padding-right: 5px;
+text-align: right;
+}
+
+.post_L {
+font-family: Verdana;
+font-size: 10px;
+color: #BCCBDC;
+padding-left: 15px;
+padding-right: 3px;
+padding-top: 3px;
+padding-bottom: 5px;
+text-align: left;
+}
+
+.post_R {
+font-family: Verdana;
+font-size: 10px;
+color: #BCCBDC;
+padding-right: 15px;
+padding-left: 3px;
+padding-top: 3px;
+padding-bottom: 5px;
+text-align: right;
+}
+
+.text {
+font-family: Verdana;
+font-size: 10px;
+color: #BCCBDC;
+text-align: center;
+padding-right: 3px;
+padding-left: 3px;
+padding-top: 3px;
+padding-bottom: 3px;
+}
+
+.menu {
+font-family: Verdana;
+font-size: 13px;
+text-align: center;
+font-weight: bold;
+}
+
+.copyright {
+text-align: center;
+color: #bccbdc;
+font-family: Verdana;
+font-size: 10px;
+}
