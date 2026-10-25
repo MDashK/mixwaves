@@ -1,0 +1,13 @@
+PackageURL = http://www.pana-site.com/i/p901is/app/pre/pin/P901iSTPinball.jar
+AppSize = 55893
+AppName = TP surround
+AppVer = F301.00
+AppParam = http://www.pana-site.com/i/p901is/app/pre/pin/ http://www.pana-site.com/i/apprank/pinball/
+AppClass = tball
+TargetDevice = P901iS
+SPsize = 256000
+UseBrowser = launch
+UseNetwork = http
+ProfileVer = DoJa-4.0
+LastModified = Mon, 14 Mar 2005 15:00:00 JST
+ConfigurationVer = CLDC-1.1
